@@ -1,0 +1,87 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 3rem;
+
+}
+
+main {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 0rem 5rem;
+}
+
+table th {
+    color: gray;
+
+}
+
+table td {
+
+    font-weight: bold;
+
+}
+
+.cronometro {
+    display: flex;
+    gap: 2rem;
+    text-align: center;
+
+}
+
+.cronometro-campos{
+    border-style: solid;
+    border-color: rgb(196, 192, 192);
+    padding: 1rem;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.div2 {
+    border-style: solid;
+    border-color: rgb(174, 173, 173);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.button1 {
+    width: 8rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button2 {
+    width: 40rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
